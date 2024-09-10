@@ -1,0 +1,57 @@
+body, .hero2, .header, ul {
+    display: flex;
+}
+
+body {
+    flex-direction: column;
+    font-family: Roboto, sans-serif;
+    margin: 0;
+}
+
+.header {
+    border: 1px solid black;
+    place-content: center space-between ;
+
+}
+
+.hero {
+    background-color: #1F2937;
+
+}
+
+.logo, .title {
+    color: #f9faf8;
+}
+
+ul {
+
+}
+
+li {
+    list-style-type: none;
+    
+}
+
+.logo {
+    font-size: 24px;
+}
+
+.title {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.hero2 {
+    justify-content:center;
+
+}
+
+.text, .link {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+a {
+    text-decoration: none;
+    color: #e5e7eb;
+}
