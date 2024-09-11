@@ -1,9 +1,12 @@
-body, .hero2, .header, ul {
+body, .hero2, .header, ul, .second, .pics {
     display: flex;
 }
 
-body {
+body, .second {
     flex-direction: column;
+}
+
+body {
     font-family: Roboto, sans-serif;
     margin: 0;
 }
@@ -11,12 +14,10 @@ body {
 .header {
     border: 1px solid black;
     place-content: center space-between ;
-
 }
 
 .hero {
     background-color: #1F2937;
-
 }
 
 .logo, .title {
@@ -30,16 +31,23 @@ li {
 
 .logo {
     font-size: 24px;
+    align-self: center;
+}
+
+.text {
+    margin: 50px;
+    line-height: 2;
 }
 
 .title {
     font-size: 48px;
     font-weight: 900;
+    line-height: 1;
 }
 
 .hero2 {
     justify-content:center;
-
+    padding: 80px 180px;
 }
 
 .text, .link {
@@ -50,4 +58,41 @@ li {
 a {
     text-decoration: none;
     color: #e5e7eb;
+}
+
+.second {
+    border: 1px saddlebrown solid;
+    align-items: center;
+    place-content: center center;
+    padding: 0 18vw;
+    gap: 60px;
+}
+
+.blue {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+
+}
+
+.pic > img {
+    border-radius: 10%;
+    width: 160px;
+    height: 160px;
+    border: 5px solid #3882f6;
+}
+
+.pics {
+    justify-content: space-evenly;
+    /* border: 1px solid black; */
+    min-width: 64vw;
+}
+
+.subtext {
+    width: 160px;
+    text-align: center;
+}
+
+.second, .gray, .last {
+    height: 550px;
 }
